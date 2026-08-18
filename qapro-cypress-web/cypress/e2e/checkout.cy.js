@@ -1,5 +1,5 @@
-describe("Login", () => {
-  it("Login com sucesso", () => {
+describe("Checkout", () => {
+  it("Acessar carrinho", () => {
     cy.visit("https://automationpratice.com.br/my-account#!"); //Acessar a página de login
     cy.get(":nth-child(3) > .offcanvas-toggle > .fa").click();
     cy.get(":nth-child(3) > .offcanvas-toggle > .fa").click();
